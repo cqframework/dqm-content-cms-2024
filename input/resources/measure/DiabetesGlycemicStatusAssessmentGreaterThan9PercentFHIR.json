@@ -1,0 +1,185 @@
+{
+  "resourceType": "Measure",
+  "id": "DiabetesGlycemicStatusAssessmentGreaterThan9PercentFHIR",
+  "meta": {
+    "profile": [ "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-measure-cqfm", "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-measure-cqfm", "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/executable-measure-cqfm" ]
+  },
+  "url": "https://madie.cms.gov/Measure/DiabetesGlycemicStatusAssessmentGreaterThan9PercentFHIR",
+  "identifier": [ {
+    "use": "usual",
+    "type": {
+      "coding": [ {
+        "system": "http://hl7.org/fhir/us/cqfmeasures/CodeSystem/identifier-type",
+        "code": "short-name"
+      } ]
+    },
+    "system": "https://madie.cms.gov/measure/shortName",
+    "value": "CMS122FHIR"
+  }, {
+    "use": "official",
+    "type": {
+      "coding": [ {
+        "system": "http://hl7.org/fhir/us/cqfmeasures/CodeSystem/identifier-type",
+        "code": "version-independent"
+      } ]
+    },
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:uuid:f04ee808-8ece-4936-8b26-fafa462e1594"
+  }, {
+    "use": "official",
+    "type": {
+      "coding": [ {
+        "system": "http://hl7.org/fhir/us/cqfmeasures/CodeSystem/identifier-type",
+        "code": "version-specific"
+      } ]
+    },
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:uuid:7cd99bbb-c3bd-4089-ac26-c1744377b637"
+  }, {
+    "use": "official",
+    "type": {
+      "coding": [ {
+        "system": "http://hl7.org/fhir/us/cqfmeasures/CodeSystem/identifier-type",
+        "code": "publisher"
+      } ]
+    },
+    "system": "https://madie.cms.gov/measure/cmsId",
+    "value": "122FHIR",
+    "assigner": {
+      "display": "CMS"
+    }
+  } ],
+  "version": "0.1.002",
+  "name": "DiabetesGlycemicStatusAssessmentGreaterThan9PercentFHIR",
+  "title": "Diabetes: Glycemic Status Assessment Greater Than 9%FHIR",
+  "status": "draft",
+  "experimental": false,
+  "date": "2026-03-13T01:50:41+00:00",
+  "publisher": "National Committee for Quality Assurance",
+  "contact": [ {
+    "telecom": [ {
+      "system": "url",
+      "value": "https://www.ncqa.org/"
+    } ]
+  } ],
+  "description": "Percentage of patients 18-75 years of age with diabetes who had a glycemic status assessment (hemoglobin A1c [HbA1c] or glucose management indicator [GMI]) > 9.0% during the measurement period",
+  "purpose": "UNKNOWN",
+  "usage": "If the glycemic status assessment (HbA1c or GMI) is in the medical record, the test can be used to determine numerator compliance.  Glycemic status assessment (HbA1c or GMI) must be reported as a percentage (%).  If multiple glycemic status assessments were recorded for a single date, use the lowest result.  This eCQM is a patient-based measure.  This FHIR-based measure has been derived from the QDM-based measure: CMS122v13.   Please refer to the HL7 QI-Core Implementation Guide (http://hl7.org/fhir/us/qicore/STU4.1.1/) for more information on QI-Core and mapping recommendations from QDM to QI-Core 4.1.1 (http://hl7.org/fhir/us/qicore/STU4.1.1/qdm-to-qicore.html).",
+  "copyright": "This Physician Performance Measure (Measure) and related data specifications are owned and were developed by the National Committee for Quality Assurance (NCQA). NCQA is not responsible for any use of the Measure. NCQA makes no representations, warranties, or endorsement about the quality of any organization or physician that uses or reports performance measures and NCQA has no liability to anyone who relies on such measures or specifications. NCQA holds a copyright in the Measure. The Measure can be reproduced and distributed, without modification, for noncommercial purposes (e.g., use by healthcare providers in connection with their practices) without obtaining approval from NCQA. Commercial use is defined as the sale, licensing, or distribution of the Measure for commercial gain, or incorporation of the Measure into a product or service that is sold, licensed or distributed for commercial gain. All commercial uses or requests for modification must be approved by NCQA and are subject to a license at the discretion of NCQA. (C) 2012-2024 National Committee for Quality Assurance. All Rights Reserved.  Limited proprietary coding is contained in the Measure specifications for user convenience. Users of proprietary code sets should obtain all necessary licenses from the owners of the code sets. NCQA disclaims all liability for use or accuracy of any third-party codes contained in the specifications.  CPT(R) codes, descriptions and other data are copyright 2024. American Medical Association. All rights reserved. CPT is a trademark of the American Medical Association. Fee schedules, relative value units, conversion factors and/or related components are not assigned by the AMA, are not part of CPT, and the AMA is not recommending their use. The AMA does not directly or indirectly practice medicine or dispense medical services. The AMA assumes no liability for data contained or not contained herein. Applicable FARS/DFARS restrictions apply to government use.  Some measure specifications contain coding from LOINC(R) (http://loinc.org). The LOINC table, LOINC codes, LOINC panels and form file, LOINC linguistic variants file, LOINC/RSNA Radiology Playbook, and LOINC/IEEE Medical Device Code Mapping Table are copyright 2004-2024 Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee, and are available at no cost under the license at http://loinc.org/terms-of-use.  This material contains SNOMED Clinical Terms(R) (SNOMED CT[R]) copyright 2004-2023 International Health Terminology Standards Development Organisation.   ICD-10 copyright 2024 World Health Organization. All Rights Reserved.  Some measures use RxNorm, a standardized nomenclature and coding for clinical drugs and drug delivery devices, which is made publicly available courtesy of the U.S. National Library of Medicine (NLM), National Institutes of Health, Department of Health and Human Services. NLM is not responsible for the measures and does not endorse or recommend this or any other product.  “HL7” is the registered trademark of Health Level Seven International.",
+  "effectivePeriod": {
+    "start": "2025-01-01",
+    "end": "2025-12-31"
+  },
+  "author": [ {
+    "name": "National Committee for Quality Assurance",
+    "telecom": [ {
+      "system": "url",
+      "value": "https://www.ncqa.org/"
+    } ]
+  } ],
+  "library": [ "https://madie.cms.gov/Library/DiabetesGlycemicStatusAssessmentGreaterThan9PercentFHIR" ],
+  "disclaimer": "The performance Measure is not a clinical guideline and does not establish a standard of medical care, and has not been tested for all potential applications. THE MEASURE AND SPECIFICATIONS ARE PROVIDED \"AS IS\" WITHOUT WARRANTY OF ANY KIND.   Due to technical limitations, registered trademarks are indicated by (R) or [R] and unregistered trademarks are indicated by (TM) or [TM].",
+  "scoring": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/measure-scoring",
+      "code": "proportion",
+      "display": "Proportion"
+    } ]
+  },
+  "rationale": "Diabetes is the seventh leading cause of death in the United States (Centers for Disease Control and Prevention [CDC], 2022a). In 2019, diabetes affected more than 37 million Americans (11.3% of the U.S. population) and killed more than 87,000 people (American Diabetes Association [ADA], 2022a). Diabetes is a long-lasting disease marked by high blood glucose levels, resulting from the body's inability to produce or use insulin properly (CDC, 2022a). People with diabetes are at increased risk of serious health complications including vision loss, heart disease, stroke, kidney damage, amputation of feet or legs, and premature death (CDC, 2022b).   In 2017, diabetes cost the U.S. an estimated $327 billion: $237 billion in direct medical costs and $90 billion in reduced productivity. This is a 34% increase from the estimated $245 billion spent on diabetes in 2012 (ADA, 2018).  Controlling A1c blood levels helps reduce the risk of microvascular complications (eye, kidney and nerve diseases) (ADA, 2022b).",
+  "clinicalRecommendationStatement": "American Diabetes Association (2023):  - Assess glycemic status (A1C or other glycemic measurement such as time in range or glucose management indicator) at least two times a year in patients who are meeting treatment goals (and who have stable glycemic control). (Level of evidence: E)  - An A1C goal for many nonpregnant adults of <7% (53 mmol/mol) without significant hypoglycemia is appropriate. (Level of evidence: A)  - On the basis of health care professional judgement and patient preference, achievement of lower A1C levels than the goal of 7% may be acceptable and even beneficial if it can be achieved safely without significant hypoglycemia or other adverse effects of treatment. (Level of evidence: B)  - Less stringent A1C goals (such as <8% [64 mmol/mol]) may be appropriate for patients with limited life expectancy or where the harms of treatment are greater than the benefits. Health care professionals should consider deintensification of therapy if appropriate to reduce the risk of hypoglycemia in patients with inappropriate stringent A1C targets. (Level of evidence: B)  - Standardized, single-page glucose reports from continuous glucose monitoring (CGM) devices with visual cues, such as the ambulatory glucose profile, should be considered as a standard summary for all CGM devices. Level of evidence: E",
+  "group": [ {
+    "id": "661d86730f0a9077c1d5a59d",
+    "extension": [ {
+      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-scoring",
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/measure-scoring",
+          "code": "proportion",
+          "display": "Proportion"
+        } ]
+      }
+    }, {
+      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-populationBasis",
+      "valueCode": "boolean"
+    }, {
+      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-type",
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/measure-type",
+          "code": "outcome",
+          "display": "Outcome"
+        } ]
+      }
+    }, {
+      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-rateAggregation",
+      "valueCode": "None"
+    }, {
+      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-improvementNotation",
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/measure-improvement-notation",
+          "code": "decrease",
+          "display": "increase"
+        } ]
+      }
+    } ],
+    "population": [ {
+      "id": "B3E3A61B-80C7-4EF5-B7E1-0B3A6E6E9FAF",
+      "code": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+          "code": "initial-population",
+          "display": "Initial Population"
+        } ]
+      },
+      "description": "Patients 18-75 years of age by the end of the measurement period, with diabetes with a visit during the measurement period",
+      "criteria": {
+        "language": "text/cql-identifier",
+        "expression": "Initial Population"
+      }
+    }, {
+      "id": "F00737C8-94BA-4DF4-B850-3D8048375802",
+      "code": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+          "code": "denominator",
+          "display": "Denominator"
+        } ]
+      },
+      "description": "Equals Initial Population",
+      "criteria": {
+        "language": "text/cql-identifier",
+        "expression": "Denominator"
+      }
+    }, {
+      "id": "49A83DE6-E86F-46CF-895C-8CB0E03BF2F6",
+      "code": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+          "code": "denominator-exclusion",
+          "display": "Denominator Exclusion"
+        } ]
+      },
+      "description": "Exclude patients who are in hospice care for any part of the measurement period.  Exclude patients 66 and older by the end of the measurement period who are living long term in a nursing home any time on or before the end of the measurement period.  Exclude patients 66 and older by the end of the measurement period with an indication of frailty for any part of the measurement period who also meet any of the following advanced illness criteria: - Advanced illness diagnosis during the measurement period or the year prior - OR taking dementia medications during the measurement period or the year prior   Exclude patients receiving palliative care for any part of the measurement period.",
+      "criteria": {
+        "language": "text/cql-identifier",
+        "expression": "Denominator Exclusions"
+      }
+    }, {
+      "id": "487B73B8-089E-4BB1-B690-88CDE12440F1",
+      "code": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+          "code": "numerator",
+          "display": "Numerator"
+        } ]
+      },
+      "description": "Patients whose most recent glycemic status assessment (HbA1c or GMI) (performed during the measurement period) is >9.0% or is missing, or was not performed during the measurement period",
+      "criteria": {
+        "language": "text/cql-identifier",
+        "expression": "Numerator"
+      }
+    } ]
+  } ]
+}

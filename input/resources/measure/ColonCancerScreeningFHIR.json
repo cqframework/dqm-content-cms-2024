@@ -1,0 +1,220 @@
+{
+  "resourceType": "Measure",
+  "id": "ColonCancerScreeningFHIR",
+  "meta": {
+    "profile": [ "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-measure-cqfm", "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-measure-cqfm", "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/executable-measure-cqfm" ]
+  },
+  "url": "https://madie.cms.gov/Measure/ColonCancerScreeningFHIR",
+  "identifier": [ {
+    "use": "usual",
+    "type": {
+      "coding": [ {
+        "system": "http://hl7.org/fhir/us/cqfmeasures/CodeSystem/identifier-type",
+        "code": "short-name"
+      } ]
+    },
+    "system": "https://madie.cms.gov/measure/shortName",
+    "value": "CMS130FHIR"
+  }, {
+    "use": "official",
+    "type": {
+      "coding": [ {
+        "system": "http://hl7.org/fhir/us/cqfmeasures/CodeSystem/identifier-type",
+        "code": "version-independent"
+      } ]
+    },
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:uuid:627c6e27-5c46-4412-941a-ca387492bbaa"
+  }, {
+    "use": "official",
+    "type": {
+      "coding": [ {
+        "system": "http://hl7.org/fhir/us/cqfmeasures/CodeSystem/identifier-type",
+        "code": "version-specific"
+      } ]
+    },
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:uuid:3ff5ff28-e118-4433-8467-15d0a585b45d"
+  }, {
+    "use": "official",
+    "type": {
+      "coding": [ {
+        "system": "http://hl7.org/fhir/us/cqfmeasures/CodeSystem/identifier-type",
+        "code": "publisher"
+      } ]
+    },
+    "system": "https://madie.cms.gov/measure/cmsId",
+    "value": "130FHIR",
+    "assigner": {
+      "display": "CMS"
+    }
+  } ],
+  "version": "0.1.000",
+  "name": "ColonCancerScreeningFHIR",
+  "title": "Colorectal Cancer ScreeningFHIR",
+  "status": "draft",
+  "experimental": false,
+  "date": "2026-03-13T01:50:41+00:00",
+  "publisher": "National Committee for Quality Assurance",
+  "contact": [ {
+    "telecom": [ {
+      "system": "url",
+      "value": "https://www.ncqa.org/"
+    } ]
+  } ],
+  "description": "Percentage of adults 45-75 years of age who had appropriate screening for colorectal cancer",
+  "purpose": "UNKNOWN",
+  "usage": "Do not count digital rectal exams (DRE), fecal occult blood tests (FOBTs) performed in an office setting or performed on a sample collected via DRE.  Please note the measure may include screenings performed outside the age range of patients referenced in the initial population. Screenings that occur prior to the measurement period are valid to meet measure criteria.  This eCQM is a patient-based measure.  This FHIR-based measure has been derived from the QDM-based measure: CMS130v13.  Please refer to the HL7 QI-Core Implementation Guide (http://hl7.org/fhir/us/qicore/STU4.1.1/) for more information on QI-Core and mapping recommendations from QDM to QI-Core 4.1.1 (http://hl7.org/fhir/us/qicore/STU4.1.1/qdm-to-qicore.html).",
+  "copyright": "This Physician Performance Measure (Measure) and related data specifications are owned and were developed by the National Committee for Quality Assurance (NCQA). NCQA is not responsible for any use of the Measure. NCQA makes no representations, warranties, or endorsement about the quality of any organization or physician that uses or reports performance measures and NCQA has no liability to anyone who relies on such measures or specifications. NCQA holds a copyright in the Measure. The Measure can be reproduced and distributed, without modification, for noncommercial purposes (e.g., use by healthcare providers in connection with their practices) without obtaining approval from NCQA. Commercial use is defined as the sale, licensing, or distribution of the Measure for commercial gain, or incorporation of the Measure into a product or service that is sold, licensed or distributed for commercial gain. All commercial uses or requests for modification must be approved by NCQA and are subject to a license at the discretion of NCQA. (C) 2012-2024 National Committee for Quality Assurance. All Rights Reserved.  Limited proprietary coding is contained in the Measure specifications for user convenience. Users of proprietary code sets should obtain all necessary licenses from the owners of the code sets. NCQA disclaims all liability for use or accuracy of any third-party codes contained in the specifications.  CPT(R) codes, descriptions and other data are copyright 2024. American Medical Association. All rights reserved. CPT is a trademark of the American Medical Association. Fee schedules, relative value units, conversion factors and/or related components are not assigned by the AMA, are not part of CPT, and the AMA is not recommending their use. The AMA does not directly or indirectly practice medicine or dispense medical services. The AMA assumes no liability for data contained or not contained herein. Applicable FARS/DFARS restrictions apply to government use.  Some measure specifications contain coding from LOINC(R) (http://loinc.org). The LOINC table, LOINC codes, LOINC panels and form file, LOINC linguistic variants file, LOINC/RSNA Radiology Playbook, and LOINC/IEEE Medical Device Code Mapping Table are copyright 2004-2024 Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee, and are available at no cost under the license at http://loinc.org/terms-of-use.  This material contains SNOMED Clinical Terms(R) (SNOMED CT[R]) copyright 2004-2023 International Health Terminology Standards Development Organisation.  ICD-10 copyright 2024 World Health Organization. All Rights Reserved.  Some measures use RxNorm, a standardized nomenclature and coding for clinical drugs and drug delivery devices, which is made publicly available courtesy of the U.S. National Library of Medicine (NLM), National Institutes of Health, Department of Health and Human Services. NLM is not responsible for the measures and does not endorse or recommend this or any other product.  “HL7” is the registered trademark of Health Level Seven International.",
+  "effectivePeriod": {
+    "start": "2025-01-01",
+    "end": "2025-12-31"
+  },
+  "author": [ {
+    "name": "National Committee for Quality Assurance",
+    "telecom": [ {
+      "system": "url",
+      "value": "https://www.ncqa.org/"
+    } ]
+  } ],
+  "library": [ "https://madie.cms.gov/Library/ColonCancerScreeningFHIR" ],
+  "disclaimer": "The performance Measure is not a clinical guideline and does not establish a standard of medical care, and has not been tested for all potential applications. THE MEASURE AND SPECIFICATIONS ARE PROVIDED \"AS IS\" WITHOUT WARRANTY OF ANY KIND.   Due to technical limitations, registered trademarks are indicated by (R) or [R] and unregistered trademarks are indicated by (TM) or [TM].",
+  "scoring": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/measure-scoring",
+      "code": "proportion",
+      "display": "Proportion"
+    } ]
+  },
+  "rationale": "Colorectal cancer represents eight percent of all new cancer cases in the United States. In 2020, there were an estimated 147,950 new cases of colorectal cancer and an estimated 53,200 deaths attributed to it. According to the National Cancer Institute, about 4.2 percent of men and women will be diagnosed with colorectal cancer at some point during their lifetimes. For most adults, older age is the most important risk factor for colorectal cancer, although being male and black are also associated with higher incidence and mortality. Colorectal cancer is most frequently diagnosed among people 65 to 74 years old (Howlader et al., 2020).  Screening can be effective for finding precancerous lesions (polyps) that could later become malignant, and for detecting early cancers that can be more easily and effectively treated. Precancerous polyps usually take about 10 to 15 years to develop into colorectal cancer, and most can be found and removed before turning into cancer. The five-year relative survival rate for people whose colorectal cancer is found in the early stage before it has spread is about 90 percent (SEER, 2022).",
+  "clinicalRecommendationStatement": "The U.S. Preventive Services Task Force (2021) recommends screening for colorectal cancer in adults aged 45 to 49 years. This is a Grade B recommendation (U.S. Preventive Services Task Force, 2021).   The U.S. Preventive Services Task Force (2021) recommends screening for colorectal cancer in adults aged 50 to 75 years. This is a Grade A recommendation (U.S. Preventive Services Task Force, 2021).  Appropriate screenings are defined by any one of the following: - Fecal occult blood test (annually) - Stool DNA (sDNA) with FIT test (every 3 years) - Flexible sigmoidoscopy (every 5 years) - Computed tomographic (CT) colonography (every 5 years) - Colonoscopy (every 10 years)",
+  "group": [ {
+    "id": "654a405f78418140875e351c",
+    "extension": [ {
+      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-scoring",
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/measure-scoring",
+          "code": "proportion",
+          "display": "Proportion"
+        } ]
+      }
+    }, {
+      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-populationBasis",
+      "valueCode": "boolean"
+    }, {
+      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-type",
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/measure-type",
+          "code": "process",
+          "display": "Process"
+        } ]
+      }
+    }, {
+      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-rateAggregation",
+      "valueCode": "None"
+    }, {
+      "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-improvementNotation",
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/measure-improvement-notation",
+          "code": "decrease",
+          "display": "increase"
+        } ]
+      }
+    } ],
+    "population": [ {
+      "id": "7423DF07-8C1A-4B0C-89EA-64932F943566",
+      "code": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+          "code": "initial-population",
+          "display": "Initial Population"
+        } ]
+      },
+      "description": "Patients 46-75 years of age by the end of the measurement period with a visit during the measurement period",
+      "criteria": {
+        "language": "text/cql-identifier",
+        "expression": "Initial Population"
+      }
+    }, {
+      "id": "EB843F58-5BA6-4B74-BA7D-2D313E9C1F94",
+      "code": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+          "code": "denominator",
+          "display": "Denominator"
+        } ]
+      },
+      "description": "Equals Initial Population",
+      "criteria": {
+        "language": "text/cql-identifier",
+        "expression": "Denominator"
+      }
+    }, {
+      "id": "4a91dd44-46af-44ee-bcee-2bdc0e811188",
+      "code": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+          "code": "denominator-exclusion",
+          "display": "Denominator Exclusion"
+        } ]
+      },
+      "description": "Exclude patients who are in hospice care for any part of the measurement period.  Exclude patients with a diagnosis or past history of total colectomy or colorectal cancer.  Exclude patients 66 and older by the end of the measurement period with an indication of frailty for any part of the measurement period who also meet any of the following advanced illness criteria: - Advanced illness diagnosis during the measurement period or the year prior - OR taking dementia medications during the measurement period or the year prior  Exclude patients 66 and older by the end of the measurement period who are living long term in a nursing home any time on or before the end of the measurement period.  Exclude patients receiving palliative care for any part of the measurement period.",
+      "criteria": {
+        "language": "text/cql-identifier",
+        "expression": "Denominator Exclusion"
+      }
+    }, {
+      "id": "AA394954-274E-4BAD-99FA-5B188C962903",
+      "code": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+          "code": "numerator",
+          "display": "Numerator"
+        } ]
+      },
+      "description": "Patients with one or more screenings for colorectal cancer. Appropriate screenings are defined by any one of the following criteria:  - Fecal occult blood test (FOBT) during the measurement period - Stool DNA (sDNA) with FIT test during the measurement period or the two years prior to the measurement period - Flexible sigmoidoscopy during the measurement period or the four years prior to the measurement period - CT Colonography during the measurement period or the four years prior to the measurement period - Colonoscopy during the measurement period or the nine years prior to the measurement period",
+      "criteria": {
+        "language": "text/cql-identifier",
+        "expression": "Numerator"
+      }
+    } ],
+    "stratifier": [ {
+      "id": "736a0ff4-9544-4c88-88dd-76274cc3d540",
+      "extension": [ {
+        "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-appliesTo",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+            "code": "initial-population",
+            "display": "Initial Population"
+          } ]
+        }
+      } ],
+      "description": "Patients age 46-49 by the end of the measurement period",
+      "criteria": {
+        "language": "text/cql-identifier",
+        "expression": "Stratification 1"
+      }
+    }, {
+      "id": "426f0691-b064-459c-9661-88dadc8d3f7b",
+      "extension": [ {
+        "url": "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-appliesTo",
+        "valueCodeableConcept": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+            "code": "initial-population",
+            "display": "Initial Population"
+          } ]
+        }
+      } ],
+      "description": "Patients age 50-75 by the end of the measurement period",
+      "criteria": {
+        "language": "text/cql-identifier",
+        "expression": "Stratification 2"
+      }
+    } ]
+  } ]
+}

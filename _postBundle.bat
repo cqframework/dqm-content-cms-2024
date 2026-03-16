@@ -1,0 +1,1 @@
+curl -X POST "https://cloud.alphora.com/sandbox/r4/cqm/fhir/" -H "Content-Type: application/fhir+json" -H "Accept: application/fhir+json" --data-binary "@C:\Users\Bryn\Documents\Src\CQF\ecqm-content-qicore-2024\bundles\bundles\AlaraCTClinicalFHIR-bundle.json"

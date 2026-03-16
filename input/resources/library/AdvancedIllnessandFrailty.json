@@ -1,0 +1,35 @@
+{
+  "resourceType": "Library",
+  "id": "AdvancedIllnessandFrailty",
+  "meta": {
+    "profile": [ "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-library-cqfm" ]
+  },
+  "url": "https://madie.cms.gov/Library/AdvancedIllnessandFrailty",
+   "identifier": [ {
+    "use": "official",
+    "system": "https://madie.cms.gov/login",
+    "value": "66314c05633fd342e6fbc53f"
+  } ],
+  "version": "1.16.000",
+  "name": "AdvancedIllnessandFrailty",
+  "title": "AdvancedIllnessandFrailty",
+  "status": "active",
+  "experimental": false,
+  "type": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/library-type",
+      "code": "logic-library"
+    } ]
+  },
+  "date": "2024-05-15T14:19:48+00:00",
+  "publisher": "National Committee for Quality Assurance",
+  "description": "This library contains definitions used to exclude patients 66 and older with an indication of frailty who also meet advanced illness criteria, and patients 66 and older who are living long term in a nursing home.",
+ "topic": [ {
+    "text": "FHIR"
+  }, {
+    "text": "CQL"
+  } ],
+  "content": [ {
+    "id": "ig-loader-AdvancedIllnessandFrailty.cql"
+  } ]
+}

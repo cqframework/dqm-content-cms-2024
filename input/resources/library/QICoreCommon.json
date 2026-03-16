@@ -1,0 +1,35 @@
+{
+  "resourceType": "Library",
+  "id": "QICoreCommon",
+  "meta": {
+    "profile": [ "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-library-cqfm" ]
+  },
+  "url": "https://madie.cms.gov/Library/QICoreCommon",
+  "identifier": [ {
+    "use": "official",
+    "system": "https://madie.cms.gov/login",
+    "value": "660c3cd934f8773b6f26972a"
+  } ],
+  "version": "2.1.000",
+  "name": "QICoreCommon",
+  "title": "QICoreCommon",
+  "status": "active",
+  "experimental": false,
+  "type": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/library-type",
+      "code": "logic-library"
+    } ]
+  },
+  "date": "2024-12-11T20:58:47+00:00",
+  "publisher": "ICF",
+  "description": "Common terminologies and functions used in QI-Core-based CQL artifacts",
+ "topic": [ {
+    "text": "FHIR"
+  }, {
+    "text": "CQL"
+  } ],
+  "content": [ {
+    "id": "ig-loader-QICoreCommon.cql"
+  } ]
+}
