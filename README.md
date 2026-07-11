@@ -18,6 +18,14 @@ Commits to this repository will automatically trigger a build of the continuous 
 
 https://build.fhir.org/ig/cqframework/dqm-content-cms-2024
 
+## Terminology Expectations
+
+The measures in this repository make use of the same value sets used by the QDM-based versions of the measures, specifically the 2024 AU Update:
+
+http://cts.nlm.nih.gov/fhir/Library/ecqm-update-2024-05-02
+
+> NOTE: The value sets in this repository are limited to expansions of 1000. To obtain the full expansions requires an NLM license and can be downloaded from the Value Set Authority Center downloads site: https://vsac.nlm.nih.gov/download
+
 ## Connectathon Scenarios
 
 ### Measure Testing
